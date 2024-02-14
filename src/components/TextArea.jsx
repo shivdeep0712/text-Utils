@@ -31,7 +31,7 @@ const TextArea = () => {
       <h3 className='mt-4'>Your text summary</h3>
       <p>{text.split(" ").length} words and {text.length} characters</p>
       <p>{0.008 * text.split(" ").length} Minutes read</p>
-      <h2>Text preview</h2>
+      <h2>Text previews</h2>
     
       <p>{text}</p>
     </div>
